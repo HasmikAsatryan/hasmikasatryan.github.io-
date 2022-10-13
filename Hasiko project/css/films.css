@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+} 
+
+.page1{
+	width: 100%;
+	background-color: #d6ccc3;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.left{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: "Cuprum", sans-seri;
+	color: #44311C;
+}
+
+.logo-picture{
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	margin-right: 20px;
+	align-items: center;
+	
+}
+.right{
+	width: 40%;
+	height: 100%;
+	margin-left: 150px;
+
+}
+.right ul{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right ul li{
+	font-family: monospace;
+	font-size: 20px;
+	list-style: none;
+	color: white; 
+}
+
+.right ul li a{
+	text-decoration: none;
+	color: white; 
+}
+.right ul li a::after{
+	content: '';
+	background: white;
+	width: 0%;
+	height: 3px;
+	display: block;
+	margin:auto;
+	transition: 0.2s;
+}
+.right ul li a:hover::after{
+	width: 100%;
+}
+
+
+/*films*/
+
+main{
+	padding: 30px;
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.first-row{
+	display: flex;
+	justify-content: center;
+}
+
+.first-left{
+	width: 45%;
+}
+.first-right{
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.first-right button{
+	height: 70px;
+	width: 200px;
+	margin-top:20px ;
+	font-size: 15px;
+	border-radius: 40px;
+	background-color: #d9d9d9;
+	border: 1px solid black;
+	font-family: "Cuprum", sans-seri;
+}
+
+.first-right button:hover{
+	background-color: white;
+	color: #44311C;
+	border: 1px solid #d9d9d9;
+	box-shadow: 4px 8px #d9d9d9;
+}
+
+
+.second-row{
+	display: flex;
+	justify-content: center;
+}
+.second-right{
+	width: 45%;
+}
+.second-left{
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.second-left button{
+	height: 70px;
+	width: 200px;
+	margin-top:20px ;
+	font-size: 15px;
+	border-radius: 40px;
+	background-color: #d9d9d9;
+	border: 1px solid black;
+	font-family: "Cuprum", sans-seri;
+}
+
+.second-left button:hover{
+	background-color: white;
+	color: #44311C;
+	border: 1px solid #d9d9d9;
+	box-shadow: 4px 8px #d9d9d9;
+}
+
+.third-row{
+	display: flex;
+	justify-content: center;
+}
+
+.third-left{
+	width: 45%;
+}
+.third-right{
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.third-right button{
+	height: 70px;
+	width: 200px;
+	margin-top:20px ;
+	font-size: 15px;
+	border-radius: 40px;
+	background-color: #d9d9d9;
+	border: 1px solid black;
+	font-family: "Cuprum", sans-seri;
+}
+
+.third-right button:hover{
+	background-color: white;
+	color: #44311C;
+	border: 1px solid #d9d9d9;
+	box-shadow: 4px 8px #d9d9d9;
+}
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.fa {
+  padding: 30px;
+  font-size: 50%;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+
+  color: white;
+
+}
+.fa-instagram {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+
+}

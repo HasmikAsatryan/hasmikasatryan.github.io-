@@ -1,0 +1,199 @@
+*{
+margin: 0;
+padding: 0;
+} 
+
+.page1{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../images/headerbackground.jpg);
+
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+
+	
+}
+
+.left{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: "Cuprum", sans-seri;
+	color: #44311C;
+}
+
+.logo-picture{
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	margin-right: 20px;
+	align-items: center;
+	
+}
+.right{
+	width: 40%;
+	height: 100%;
+	margin-left: 150px;
+
+}
+.right ul{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right ul li{
+	font-family: monospace;
+	font-size: 20px;
+	list-style: none;
+	color: white; 
+}
+
+.right ul li a{
+	text-decoration: none;
+	color: white; 
+}
+.right ul li a::after{
+	content: '';
+	background: white;
+	width: 0%;
+	height: 3px;
+	display: block;
+	margin:auto;
+	transition: 0.2s;
+}
+.right ul li a:hover::after{
+	width: 100%;
+}
+	
+main{
+	width: 100%;
+	display: flex;
+}
+
+.main-left{
+	width: 50%;
+
+}
+
+.main-right{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 150px;
+	
+}
+
+	
+.pharagraphs1{
+
+	height: 130px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-right: 100px;
+
+}
+
+.pharagraphs1 h1{
+	font-family: monospace;
+	font-size: 40px; 
+	color: #44311C;
+	margin-top: 40px;
+	
+}
+.pharagraphs1 h2{
+	font-family: monospace;
+	font-size: 25px; 
+	margin-top: 15px;
+	font-family: "Cuprum", sans-seri;
+}
+.pharagraphs2{
+	display: flex;
+	width: 75%;
+	align-items: center;
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+.pharagraphs3{
+
+	height: 150px;
+	width: 100%;
+	font-family: "Cuprum", sans-seri;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #44311C;
+}
+
+.pharagraphs3>form>button{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-right: 20px;
+	border: 2px solid #fff;
+	cursor: pointer;
+	color: #44311C;
+	font-family: "Cuprum", sans-seri;
+
+}
+.pharagraphs3 p{
+	font-family: ;
+	font-size: 20px;
+	line-height: 15px;
+	margin-left: 5px;
+	font-family: "Cuprum", sans-seri;
+}
+
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:90px;
+
+}
+.fa {
+  padding: 30px;
+  font-size: 50%;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+
+  color: white;
+
+}
+.fa-instagram {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+
+}
